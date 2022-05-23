@@ -1,3 +1,4 @@
+//Lab Exercise No 1
 public class ComplexNum {
     float real,imag;
     //constructors 
@@ -19,7 +20,7 @@ public class ComplexNum {
     public ComplexNum mult(ComplexNum c2){
         ComplexNum c= new ComplexNum();
         c.real=(this.real)*(c2.real)-(this.imag)*(c2.imag);
-        c.imag=(this.real)*(c2.imag)- (this.imag)*(c2.real);
+        c.imag=(this.real)*(c2.imag)+ (this.imag)*(c2.real);
         return c;
     }
     public void ToString(){
@@ -34,10 +35,14 @@ public class ComplexNum {
         c1.ToString();
         ComplexNum c2=new ComplexNum(2,3);
         c2.ToString();
-        c1=c1.add(c2);
-        c1.ToString();
-        c1=c1.mult(c2);
-        c1.ToString();
+        ComplexNum sum1=new ComplexNum();
+        sum1=c1.add(c2);
+        System.out.print("Sum of ");
+        sum1.ToString();
+        ComplexNum prod=new ComplexNum();
+        prod=c1.mult(c2);
+        System.out.print("Sum of ");
+        prod.ToString();
         
     }
 
