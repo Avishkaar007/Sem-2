@@ -41,7 +41,7 @@ public class ComplexNum {
         sum1.ToString();
         ComplexNum prod=new ComplexNum();
         prod=c1.mult(c2);
-        System.out.print("Sum of ");
+        System.out.print("Product of ");
         prod.ToString();
         
     }
