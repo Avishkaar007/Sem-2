@@ -30,7 +30,7 @@ public class ComplexNum {
 
 
     public static void main(String[] args){
-        ComplexNum c1=new ComplexNum(4,5);
+        ComplexNum c1=new ComplexNum(3,4);
         
         c1.ToString();
         ComplexNum c2=new ComplexNum(2,3);

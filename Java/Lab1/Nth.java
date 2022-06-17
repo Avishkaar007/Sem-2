@@ -23,7 +23,7 @@ public class Nth{
     public static void main(String [] args){
         // I will use CLA as size of array
         
-        int[] arr={2,3,7,1,86,99,103,5};
+        int[] arr={4,5,1,2,8,6,7,9,88,92,3};
         arr=bubbleSort(arr);
         int n=Integer.parseInt(args[0]);
         System.out.println("Nth smallest Element "+arr[n-1]);

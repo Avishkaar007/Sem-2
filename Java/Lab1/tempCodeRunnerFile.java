@@ -1,15 +1,26 @@
-// Practise Set 3
-public class SumAtOdd {
-    public static void main(String [] args){
-        int[] arr={2,3,7,1,86,99,103,5};
-        int sum=0;
-        for (int a=0;a<arr.length;a++){
-            if ((a%2)==0){
-                if (arr[a]%2!=0){
-                    sum+=arr[a];
-                }
-            }            
-        }
-        System.out.println("Sum of all odd numbers at even index is "+sum);
-    }
+// Practise set 1
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your name: ");
+		String name = scan.nextLine();
+		
+		System.out.println("Enter your gender: ");
+		char gender = scan.next().charAt(0);
+		
+		
+		System.out.println("Enter your age: ");
+		int age = scan.nextInt();
+		
+		
+		System.out.println("Enter your mobile no: : ");
+		long mobileNo = scan.nextLong();
+		
+		System.out.println("Enter your CGPA: ");
+		double cgpa = scan.nextDouble();
+		
+		System.out.println("Name: "+name +"\nGender:" +gender + "\nAge: "+age+"\nCGPA: "+cgpa);
+	}
 }

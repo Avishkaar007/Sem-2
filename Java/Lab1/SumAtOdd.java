@@ -1,7 +1,7 @@
 // Practise Set 3
 public class SumAtOdd {
     public static void main(String [] args){
-        int[] arr={2,3,7,1,86,99,103,5};
+        int[] arr={2,3,7,1,86,99,22,75};
         int sum=0;
         for (int a=0;a<arr.length;a++){
             if ((a%2)==0){
