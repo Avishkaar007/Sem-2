@@ -1,7 +1,5 @@
 
-
 // Practise Set 5
-
 public class Pattern {
     public static void main(String [] args){
         int x=1;

@@ -21,3 +21,12 @@ public class Leap_Year {
     
 
 }
+
+// Enter Year : 2003
+// Not a leap year 
+
+// Enter Year : 2000
+// Leap Year
+
+// Enter Year : 2100
+// Not a leap year 

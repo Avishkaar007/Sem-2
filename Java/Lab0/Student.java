@@ -1,5 +1,6 @@
 //Practise Set Number 1
-
+//Run this in terminal , not Code Runner
+/** Pass command line arguements in form java <name> < rollno> <course> <college> */
 public class Student{
     public static void main(String args[]){
         // Name,RollNo,Course,college
@@ -27,3 +28,9 @@ public class Student{
     }
     
 }
+
+// PS D:\ANDC\Sem-2\Java\Lab0> java Student A 1 BA ANDC
+// Name : A
+// Roll NO is 1
+// Marks Scored : BA
+// College : ANDC

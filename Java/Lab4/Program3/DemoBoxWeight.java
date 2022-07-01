@@ -1,3 +1,4 @@
+package Program3;
 class BoxWeight extends Box {
     double weight; // weight of box
     // constructor for BoxWeight

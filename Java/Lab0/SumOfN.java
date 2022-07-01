@@ -10,6 +10,6 @@ public class SumOfN{
         for (int i=0;i<args.length;i++){
             sum+=Integer.parseInt(args[i]);
         }
-        System.out.print("\nThe sum is : "+sum+"\n");
+        System.out.println("\nThe sum is : "+sum+"\n");
     }
 }
